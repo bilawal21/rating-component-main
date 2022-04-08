@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Overpass:wght@400;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="box">
+    <span class="circle">
+      <img src="images/icon-star.svg" alt="icon-star">
+    </span>
+    <h3>How did we do?</h3>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+      offering!</p>
+    <span class="numbers">
+      <p class="ncircle">1</p>
+      <p class="ncircle">2</p>
+      <p class="ncircle">3</p>
+      <p class="ncircle">4</p>
+      <p class="ncircle">5</p>
+    </span>
+    <div class="btn">
+      <button id="submit_btn" onclick="submit()">submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
